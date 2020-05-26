@@ -47,6 +47,11 @@ variable aws_route53_zone {
 	description = "Route53 ID of zone to use"
 }
 
+variable internal {
+	type        = bool
+	description = "Whether Scylla Cluster has internal broadcasting"
+}
+
 variable environment {
 	type        = string
 	description = "Scylla Cloud Environment"

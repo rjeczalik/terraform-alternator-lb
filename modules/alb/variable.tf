@@ -52,6 +52,11 @@ variable environment {
 	description = "Scylla Cloud Environment"
 }
 
+variable internal {
+	type        = bool
+	description = "Whether Scylla Cluster has internal broadcasting"
+}
+
 variable cluster_id {
 	type        = number
 	description = "ID of Scylla Cloud cluster"
